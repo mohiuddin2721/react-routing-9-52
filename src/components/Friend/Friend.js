@@ -8,8 +8,9 @@ const Friend = (props) => {
     const navigate = useNavigate();
 
     const showFriendDetail = () => {
-        const path = `/friends/${id}`
-        navigate(path);
+        // const path = `/friends/${id}`
+        // navigate(path);
+        navigate('/friend/' + id);
     }
     return (
         <div>
